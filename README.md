@@ -1,0 +1,2 @@
+# OpenAI whisper Fine tuning
+
