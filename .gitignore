@@ -1,0 +1,14 @@
+result/
+wandb/
+whisper_large_v3_ko_ft_ft_Economy/
+whisper_large_v3_turbo_korean_Develop/
+faster-whisper_large_v3_turbo_korean_Develop/
+faster-whisper_large_v3_turbo_korean_Economy/
+datasets/
+.gradio/
+pretrained_models/
+output/
+
+API_KEY.txt
+
+__pycache__

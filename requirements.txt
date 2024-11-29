@@ -1,0 +1,15 @@
+transformers==4.45 
+datasets 
+torch 
+faster-whisper 
+huggingface_hub 
+numpy==1.23.2
+vctube
+accelerate>=0.26.0
+yt_dlp
+pydub
+youtube_transcript_api
+librosa
+wandb
+simple_diarizer
+openai
