@@ -63,9 +63,9 @@ CTranslate2 변환 → faster-whisper 추론 → Mote AI 기능 연동
 
 ### Experiments & Configuration
 
-기본 모델은 `openai/whisper-large-v3-turbo`입니다. 한국어 모델 카드에는 Zeroth-Korean·Common Voice 17 학습이 기록돼 있으며, 현재 [`fine_tune_whisper.ipynb`](./fine_tune_whisper.ipynb)의 셀은 **Common Voice 17 한국어 `train+validation` / `test`**를 사용하도록 설정돼 있습니다.
+기본 모델은 `openai/whisper-large-v3-turbo`입니다. 한국어 모델 카드에는 Zeroth-Korean·Common Voice 17 학습이 기록돼 있으며, 현재 [`fine_tune_whisper.ipynb`](./fine_tune_whisper.ipynb)의 셀은 Common Voice 17 한국어 `train+validation` / `test`를 사용하도록 설정돼 있습니다.
 
-도메인 학습은 한국어 체크포인트 `imTak/whisper_large_v3_ko_ft_ft`에서 시작합니다. 이 ID의 현재 공개 이름은 **[`imTak/whisper_large_v3_turbo_Korean2`](https://huggingface.co/imTak/whisper_large_v3_turbo_Korean2)**입니다.
+도메인 학습은 한국어 체크포인트 `imTak/whisper_large_v3_ko_ft_ft`에서 시작합니다. 이 ID의 현재 공개 이름은 [`imTak/whisper_large_v3_turbo_Korean2`](https://huggingface.co/imTak/whisper_large_v3_turbo_Korean2)입니다.
 
 | 항목 | 한국어 기본 노트북 | 개발 분야 Python | 경제 분야 Python |
 |---|---|---|---|
